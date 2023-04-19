@@ -23,3 +23,136 @@
 	--color-white: #ffffff;
 	--color-orange: #fba94c;
 }
+
+
+html, body {
+    background-color: var(--color-gray-50);
+}
+
+section {
+    width: 320px;
+    margin: auto;
+}
+
+section .inner {
+    padding: 24px;
+    background-color: var(--color-white);
+
+    border: 1px solid var(--color-gray-200);
+    border-radius: 10px;
+}
+
+.inner p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--color-purple-200);
+}
+
+.title-price {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+
+    color: var(--color-gray-800);
+}
+
+.price {
+    font-size: 18px;
+    line-height: 27px;
+
+    color: var(--color-gray-800);
+}
+
+.price strong {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    width: 100%;
+
+    border:  1px solid var(--color-gray-800);
+    border-radius: 4px;
+
+    margin-top: 16px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--color-gray-800);
+    cursor: pointer;
+
+    transition: all ease .3s;
+}
+
+button.primary:hover {
+    background-color: var(--color-gray-800);
+    color: var(--color-white);
+}
+
+ul {
+    border-top: 1px solid var(--color-gray-200);
+    padding-top: 16px;
+    margin-top: 16px;
+
+    list-style: none;
+
+    display: grid;
+    gap: 16px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+li span {
+    flex: 1;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+
+    color: var(--color-gray-600);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
