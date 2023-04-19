@@ -133,7 +133,15 @@ li span {
     color: var(--color-gray-600);
 }
 
+li i.ph-check {
+    font-size: 20px;
+    color: var(--color-green-200);
+}
 
+li i.ph-info {
+    font-size: 16px;
+    color: var(--color-gray-900);
+}
 
 
 
