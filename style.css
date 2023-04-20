@@ -155,6 +155,10 @@ li i.ph-info {
 }
 
 .enterprise button {
+    margin-top: 32px;
+}
+
+.enterprise ul {
     padding-top: 32px;
     margin-top: 32px;
 }
