@@ -224,8 +224,29 @@ button.secondary:hover {
 }
 
 /* Transição & Animações */
+section .inner:hover {
+    background-color: var(--color-purple-100);
+}
 
+section .inner {
+    transition: border 300ms;
+}
 
+section:hover {
+    transform: scale(1.05);
+}
+
+section {
+    transition: transform 300ms;
+    animation:  appear 400ms backwards var(--deley);
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+}
 
 
 
